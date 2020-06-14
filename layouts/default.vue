@@ -18,3 +18,10 @@ export default Vue.extend({
     }
 });
 </script>
+
+<style>
+/* CSS Variables */
+:root {
+    --purple: #7957d5;
+}
+</style>

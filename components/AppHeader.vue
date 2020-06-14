@@ -51,7 +51,7 @@
 nav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: #7957d5 1px solid;
+    border-bottom: var(--purple) 1px solid;
 }
 
 nav .navbar-item {
@@ -63,11 +63,24 @@ nav .navbar-dropdown > .navbar-item {
 }
 
 nav .navbar-dropdown {
-    border: #7957d5 1px solid;
-    border-radius: 6px;
+    border: var(--purple) 1px solid;
+    border-radius: 0;
 }
 
 nav #logo {
     max-height: 3.75rem;
+}
+
+.navbar-burger {
+    position: relative;
+    top: 0.75rem;
+}
+
+@media screen and (max-width: 1024px) {
+    nav .navbar-dropdown {
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    } 
 }
 </style>
