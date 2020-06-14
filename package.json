@@ -1,0 +1,20 @@
+{
+  "name": "uavs-website",
+  "version": "1.0.0",
+  "description": "Rewrite of the UAVs website from Jekyll to Nuxt/Vue",
+  "author": "Raghav Misra",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0",
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
+}
