@@ -1,8 +1,6 @@
 export default {
     mode: "universal",
-    /*
-    ** Headers of the page
-    */
+
     head: {
         title: "AmadorUAVs",
         meta: [
@@ -11,33 +9,13 @@ export default {
             { hid: "description", name: "description", content: process.env.npm_package_description || "" }
         ],
         link: [
-            { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+            { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+            { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" },
+            { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" }
         ]
     },
-    /*
-    ** Customize the progress-bar color
-    */
-    loading: { color: "#fff" },
-    /*
-    ** Nuxt.js dev-modules
-    */
-    buildModules: [
-        "@nuxt/typescript-build",
-    ],
-    /*
-    ** Nuxt.js modules
-    */
+
     modules: [
         "nuxt-buefy"
-    ],
-    /*
-    ** Build configuration
-    */
-    build: {
-        /*
-        ** You can extend webpack config here
-        */
-        extend(config, ctx) {
-        }
-    }
+    ]
 }
