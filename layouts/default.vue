@@ -1,7 +1,9 @@
 <template>
     <div>
         <AppHeader />
-        <Nuxt />
+        <div id="currentView">
+            <Nuxt />
+        </div>
         <AppFooter />
     </div>
 </template>
@@ -30,5 +32,19 @@ export default Vue.extend({
 
 * {
     font-family: "Open Sans", sans-serif;
+}
+
+/* Flexboxify the body */
+html, body, #__nuxt, #__layout, #__layout > div {
+    min-height: 100vh;
+}
+
+#__layout > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#currentView {
+    flex: 1;
 }
 </style>
