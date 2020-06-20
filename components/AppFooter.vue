@@ -48,7 +48,7 @@ export default Vue.extend({
 <style>
 footer {
     background: var(--banner-gradient);
-    padding: 2.5rem;
+    padding: 1.5rem;
 }
 
 footer .button {

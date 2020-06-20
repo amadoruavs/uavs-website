@@ -46,5 +46,7 @@ html, body, #__nuxt, #__layout, #__layout > div {
 
 #currentView {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 </style>

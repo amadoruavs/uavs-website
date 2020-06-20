@@ -47,10 +47,16 @@
     </b-navbar>
 </template>
 
+<script lang="ts">
+import Vue from 'vue';
+export default Vue.extend({
+});
+</script>
+
 <style>
 nav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-bottom: var(--purple) 1px solid;
 }
 
