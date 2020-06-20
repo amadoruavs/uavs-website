@@ -37,6 +37,7 @@ export default Vue.extend({
 /* Flexboxify the body */
 html, body, #__nuxt, #__layout, #__layout > div {
     min-height: 100vh;
+    overflow: hidden;
 }
 
 #__layout > div {
@@ -46,6 +47,7 @@ html, body, #__nuxt, #__layout, #__layout > div {
 
 #currentView {
     flex: 1;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
 }

@@ -21,7 +21,7 @@ export default Vue.extend({
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.875)), 
         url("/images/index/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
