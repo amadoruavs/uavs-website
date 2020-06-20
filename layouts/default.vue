@@ -22,22 +22,9 @@ export default Vue.extend({
 </script>
 
 <style>
-/* CSS Variables */
-:root {
-    --purple: #7957d5;
-    --pink: #DC72FC;
-    --blue: #455CE2;
-    --banner-gradient: linear-gradient(to right, var(--pink), var(--purple) 75%, var(--blue));
-}
-
-* {
-    font-family: "Open Sans", sans-serif;
-}
-
 /* Flexboxify the body */
 html, body, #__nuxt, #__layout, #__layout > div {
     min-height: 100vh;
-    overflow: hidden;
 }
 
 #__layout > div {
