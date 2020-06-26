@@ -21,13 +21,13 @@
             </b-navbar-dropdown>
 
             <b-navbar-dropdown label="Sponsorship Info">
-                <b-navbar-item tag="nuxt-link" to="/sponsor/join">
+                <b-navbar-item tag="nuxt-link" to="/sponsor/become">
                     Become a Sponsor
                 </b-navbar-item>
                 <b-navbar-item tag="nuxt-link" to="/sponsor/list">
                     Our Current Sponsors
                 </b-navbar-item>
-                <b-navbar-item tag="nuxt-link" to="/sponsor/list">Progress</b-navbar-item>
+                <b-navbar-item tag="nuxt-link" to="/sponsor/progress">Progress</b-navbar-item>
             </b-navbar-dropdown>
 
             <!-- External Links -->
