@@ -13,7 +13,10 @@ export default Vue.extend({
     props: { image: String, noFade: Boolean },
     computed: {
         background() { 
-            return `${!this.noFade && "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.875)), "}url("${this.image}");`;
+            return `
+                ${this.noFade ? "" : "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.875)), "}
+                ${this.image}
+            `.trim();
         }
     }
 });

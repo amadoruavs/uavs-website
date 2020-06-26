@@ -1,6 +1,6 @@
 <template>
     <section id="teamPage">
-        <Jumbotron image="/images/team/banner.webp">
+        <Jumbotron image="url('/images/team/banner.webp')">
             <h1 class="has-text-white is-size-1 has-text-weight-bold">Our Team</h1>
             <p class="has-text-white is-size-4">
                 Our hardworking team is comprised of many brilliant high school engineers.
