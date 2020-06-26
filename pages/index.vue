@@ -3,6 +3,8 @@
         <Jumbotron image="url('/images/index/banner.webp')">
             <h1 class="has-text-white is-size-1 has-text-weight-bold">We Are AmadorUAVs</h1>
             <p class="has-text-white is-size-4">The future of autonomous aviation.</p>
+            <br>
+            <b-button tag="a" href="#about" type="is-primary">Learn More</b-button>
         </Jumbotron>
         <div id="about">
             <div class="side-by-side">

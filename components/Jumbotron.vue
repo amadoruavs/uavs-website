@@ -16,7 +16,7 @@ export default Vue.extend({
             return `
                 ${this.noFade ? "" : "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.875)), "}
                 ${this.image}
-            `.trim();
+            `.trim().replace(/\n/g, " ");
         }
     }
 });
