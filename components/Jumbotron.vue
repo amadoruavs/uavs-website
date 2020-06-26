@@ -1,6 +1,6 @@
 <template>
-    <div class="jumbotron" :style="`background-image: ${background};`">
-            <div>
+    <div :class="`jumbotron${freeform ? ' freeform': ''}`" :style="`background-image: ${background};`">
+            <div class="jumbotron-content">
                 <slot></slot>
             </div>
         </div>
@@ -10,7 +10,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-    props: { image: String, noFade: Boolean },
+    props: { image: String, noFade: Boolean, freeform: Boolean },
     computed: {
         background() { 
             return `
@@ -24,17 +24,21 @@ export default Vue.extend({
 
 <style>
 .jumbotron {
-    display: flex;
-    justify-content: center;
     text-align: center;
-    align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: calc(100vh - 93px);
 }
 
-.jumbotron > div {
-    max-width: 45vw; 
+.jumbotron:not(.freeform) {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jumbotron:not(.freeform) > div {
+    max-width: 60vw; 
 }
 </style>
