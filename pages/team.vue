@@ -6,8 +6,14 @@
                 Our hardworking team is comprised of many brilliant high school engineers.
             </p>
         </Jumbotron>
-        <div class="container">
-
+        <div class="section container">
+            <details v-for="(team, name, teamIndex) in members" :key="teamIndex" class="team-group" open>
+                <summary><h1 class="title is-3">{{ name }}</h1></summary>
+                <MemberCard 
+                    v-for="(member, i) in team" :key="i"
+                    :name="member[0]" :role="member[1]"
+                />
+            </details>
         </div>
     </section>
 </template>
@@ -16,35 +22,33 @@
 import Vue from 'vue';
 import MemberCard from "~/components/MemberCard.vue";
 
-const m = (name: string, role: string) => ({ name, role });
-
 export default Vue.extend({
     data() {
         return {
             members: {
-                software: [
-                    m("Kalyan Sriram", "President"),
-                    m("Vincent Wang", "Software Team Lead"),
-                    m("Derick Mathews", "Communications"),
-                    m("Raghav Misra", "Image Processing"),
-                    m("Ethan Kuo", "Obstacle Avoidance")
+                Software: [
+                    ["Kalyan Sriram", "President"],
+                    ["Vincent Wang", "Software Team Lead"],
+                    ["Derick Mathews", "Communications"],
+                    ["Raghav Misra", "Image Processing"],
+                    ["Ethan Kuo", "Obstacle Avoidance"]
                 ],
-                electrical: [
-                    m("Kai Gottschalk", "Electrical Team Lead"),
-                    m("Austin", "Micron Development")
+                Electrical: [
+                    ["Kai Gottschalk", "Electrical Team Lead"],
+                    ["Austin", "Micron Development"]
                 ],
-                mechanical: [
-                    m("Ishan Duriseti", "Mechanical Team Lead"),
-                    m("Frank Yu", "Design"),
-                    m("Andrew", "Mechnical"),
-                    m("Justin Park", "Mechnical")
+                Mechanical: [
+                    ["Ishan Duriseti", "Mechanical Team Lead"],
+                    ["Frank Yu", "Design"],
+                    ["Andrew", "Mechnical"],
+                    ["Justin Park", "Mechnical"]
                 ],
-                business: [
-                    m("Sungje Park", "Administration/Management"),
-                    m("Marie Less", "Business Team Lead"),
-                    m("Comrade Josh Wei", "Business"),
-                    m("Aryan", "Business???"),
-                    m("Justin Z", "Business"),
+                Business: [
+                    ["Sungje Park", "Administration/Management"],
+                    ["Marie Less", "Business Team Lead"],
+                    ["Comrade Josh Wei", "Business"],
+                    ["Aryan", "Business???"],
+                    ["Justin Z", "Business"],
                 ]
             }
         }
@@ -56,5 +60,41 @@ export default Vue.extend({
 <style>
 #teamPage > .jumbotron {
     background-position: center top;
+}
+
+.team-group {
+    border: none;
+    border-bottom: 2px solid var(--blue);
+}
+
+.team-group:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+.team-group h1:first-of-type {
+    display: inline-block;
+}
+
+.team-group > summary {
+    outline: none;
+    padding: 0.5rem 0.25rem;
+}
+
+.team-group > summary::-webkit-details-marker {
+    display: none;
+}
+
+.team-group h1:first-of-type::before {
+    content: "⮞";
+    color: var(--blue);
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 2.5px;
+    width: 2rem;
+    display: inline-block;
+}
+
+.team-group[open] h1:first-of-type::before {
+    content: "⮟";
 }
 </style>
