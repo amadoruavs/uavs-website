@@ -10,8 +10,7 @@
         </template>
         <template slot="start">
             <!-- Pages -->
-            <b-navbar-item tag="nuxt-link" to="/about">About</b-navbar-item>
-
+            
             <b-navbar-item tag="nuxt-link" to="/team">The Team</b-navbar-item>
 
             <b-navbar-item tag="nuxt-link" to="/join">Join</b-navbar-item>

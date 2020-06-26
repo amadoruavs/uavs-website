@@ -12,7 +12,6 @@ export default {
             { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
             { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" },
             { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" },
-            { rel: "stylesheet", href: "/global.css" }
         ]
     },
 
@@ -20,5 +19,11 @@ export default {
         "nuxt-buefy"
     ],
 
-    pageTransition: "page"
+    pageTransition: "page",
+
+    css: ["~/assets/global.css"],
+
+    plugins: [{
+        src: "~/plugins/global.js"
+    }]
 }

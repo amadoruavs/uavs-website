@@ -5,7 +5,7 @@
                 <b-button v-for="(social, i) in socialLinks" :key="i" 
                     :type="`is-${social.style}`" size="is-medium" inverted outlined tag="a"
                     :href="social.url">
-                    <i :class="`fab fa-${social.name} is-size-4`"></i>
+                    <i :class="`fab fa-${social.name} is-size-4 footer-icon`"></i>
                 </b-button>
             </div>
         </div>
@@ -55,8 +55,11 @@ footer .button {
     border: none;
 }
 
-footer i {
+footer i.footer-icon {
     font-size: 1.125rem;
+    position: relative;
+    top: 1.25px;
+    left: 1.25px;
 }
 
 footer hr {

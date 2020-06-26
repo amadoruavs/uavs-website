@@ -16,7 +16,7 @@ import AppFooter from "~/components/AppFooter.vue";
 export default Vue.extend({
     components: {
         AppHeader,
-        AppFooter
+        AppFooter,
     }
 });
 </script>
@@ -37,5 +37,9 @@ html, body, #__nuxt, #__layout, #__layout > div {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+}
+
+#currentView > section {
+    flex: 1;
 }
 </style>
