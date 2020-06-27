@@ -1,9 +1,9 @@
 <template>
     <div class="card member-card">
-        <div class="card-image">
-            <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-            </figure>
+        <div 
+            class="card-image" 
+            :style="`background-image: url(${picture}), url('/images/team/member.webp')`"
+            >
         </div>
         <div class="card-content">
             <div class="media">
@@ -22,7 +22,18 @@ import Vue from "vue";
 export default Vue.extend({
     props: {
         name: String,
-        role: String
+        role: String,
+        picture: String
+    },
+    data() {
+        return {
+            memberPicture: this.picture
+        };
+    },
+    methods: {
+        useDefaultPicture() {
+            this.memberPicture = "/images/team/member.webp";
+        }
     }
 });
 </script>
@@ -32,5 +43,12 @@ export default Vue.extend({
     width: 20rem;
     display: inline-block;
     margin: 1rem;
+}
+
+.member-card .card-image {
+    width: 100%;
+    height: 20rem;
+    background-size: 100%;
+    background-position: center;
 }
 </style>

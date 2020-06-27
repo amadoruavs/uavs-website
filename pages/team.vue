@@ -11,6 +11,7 @@
                 <summary><h1 class="title is-3">{{ name }}</h1></summary>
                 <MemberCard 
                     v-for="(member, i) in team" :key="i"
+                    :picture="`/images/team/members/${member[0].replace(/ /g, '_').trim().toLowerCase()}.webp`"
                     :name="member[0]" :role="member[1]"
                 />
             </details>
@@ -45,8 +46,8 @@ export default Vue.extend({
                 ],
                 Business: [
                     ["Sungje Park", "Administration/Management"],
-                    ["Marie Less", "Business Team Lead"],
-                    ["Comrade Josh Wei", "Business"],
+                    ["Marie Lee", "Business Team Lead"],
+                    ["Josh Wei", "Business"],
                     ["Aryan", "Business???"],
                     ["Justin Z", "Business"],
                 ]
