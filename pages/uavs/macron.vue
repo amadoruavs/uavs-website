@@ -1,6 +1,6 @@
 <template>
     <section id="pageMicron">
-        <Jumbotron image="var(--banner-gradient)" :freeform="true">
+        <Jumbotron image="url('/images/uavs/macron/banner.png')" :freeform="true">
             <div class="text-header"><div>
                 <h1 class="has-text-white is-size-1 has-text-weight-bold">Macron</h1>
                 <p class="has-text-white is-size-4">Our production-ready UAV for the competition.</p>
