@@ -8,7 +8,7 @@
         <div class="card-content">
             <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">{{ name }}</p>
+                    <p class="title is-5">{{ name }}</p>
                     <p class="subtitle is-6">{{ role }}</p>
                 </div>
             </div>
@@ -40,15 +40,22 @@ export default Vue.extend({
 
 <style>
 .member-card {
-    width: 20rem;
+    width: 17.5rem;
     display: inline-block;
     margin: 1rem;
 }
 
 .member-card .card-image {
     width: 100%;
-    height: 20rem;
+    height: 17.5rem;
     background-size: 100%;
     background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .member-card .media-content {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 }
 </style>

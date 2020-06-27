@@ -62,4 +62,14 @@ export default Vue.extend({
     color: white;
     flex: 1;
 }
+
+@media only screen and (max-width: 815px) {
+    #pageMicron .jumbotron-content > .drone-stats {
+        display: block;
+    }
+
+    #pageMicron .drone-stats > div {
+        margin: 1.5rem;
+    }
+}
 </style>

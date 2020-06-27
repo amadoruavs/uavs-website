@@ -28,7 +28,7 @@ export default Vue.extend({
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 93px);
+    height: var(--jumbotron-height);
 }
 
 .jumbotron:not(.freeform) {
@@ -40,5 +40,11 @@ export default Vue.extend({
 
 .jumbotron:not(.freeform) > div {
     max-width: 60vw; 
+}
+
+@media only screen and (max-width: 800px) {
+    .jumbotron:not(.freeform) > div {
+        max-width: 100vw; 
+    } 
 }
 </style>

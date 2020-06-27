@@ -47,7 +47,7 @@ export default Vue.extend({
                 Business: [
                     ["Sungje Park", "Administration/Management"],
                     ["Marie Lee", "Business Team Lead"],
-                    ["Josh Wei", "Business"],
+                    ["  Josh Wei", "Business"],
                     ["Aryan", "Business???"],
                     ["Justin Z", "Business"],
                 ]
@@ -65,7 +65,7 @@ export default Vue.extend({
 
 .team-group {
     border: none;
-    border-bottom: 2px solid var(--blue);
+    text-align: center;
 }
 
 .team-group:not(:last-of-type) {

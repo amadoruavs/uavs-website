@@ -3,6 +3,8 @@
     --pink: #DC72FC;
     --blue: #455CE2;
     --banner-gradient: linear-gradient(to right, var(--pink), var(--purple) 75%, var(--blue));
+
+    --jumbotron-height: calc(100vh - 5.5rem);
 }
 
 * {
@@ -28,4 +30,11 @@
     opacity: 0
 }
 
+/* Smol font on da phone */
+@media only screen and (max-width: 815px) {
+    html {
+        font-size: 14px;
+        --jumbotron-height: calc(100vh - 6rem);
+    }
+}
 
