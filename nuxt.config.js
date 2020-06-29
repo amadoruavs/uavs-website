@@ -24,6 +24,6 @@ export default {
     css: ["~/assets/global.css"],
 
     plugins: [{
-        src: "~/plugins/global.js"
+        src: "~/plugins/global.ts"
     }]
 }

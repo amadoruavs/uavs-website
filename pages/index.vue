@@ -89,7 +89,7 @@ export default Vue.extend({
     }
 
     #about .layout-side:first-of-type {
-        margin-right: 0x;
+        margin-right: 0px;
     }
 
     #about .layout-split-mobile { 
