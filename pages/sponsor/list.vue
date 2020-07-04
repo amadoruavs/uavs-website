@@ -11,8 +11,14 @@
         </Jumbotron>
 
         <div class="section has-text-centered">
-            <div class="card" v-for="(sponsor, i) in sponsorImages" :key="i">
-                <img :src="`/images/sponsor/list/${sponsorImages}`">
+
+            <div class="container">
+                <div class="card sponsor-card" style="border-radius: 10px" 
+                    v-for="(sponsor, i) in sponsorImages" :key="i">
+                    <div class="card-image">
+                        <img class="sponsor-image" :src="`/images/sponsor/list/${sponsor}.png`">
+                    </div>
+                </div>
             </div>
 
             <div v-if="sponsorImages.length === 0">
@@ -34,12 +40,39 @@ import Vue from "vue";
 export default Vue.extend({
     data() {
         return {
-            sponsorImages: []
+            sponsorImages: [
+                "cuav", "computar",
+                "digikey", "fastsigns",
+                "jlcpcb", "pololu",
+                "ptsa", "rfdesign",
+                "sensirion", "simscale",
+                "skb", "startech",
+                "tis", "weller"
+            ]
         }
     }
 });
 </script>
 
 <style>
+.card.sponsor-card {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2rem;
+    width: 33%;
+    margin: 1rem 0; 
+    border: none;
+    box-shadow: none;
+}
 
+@media screen and (max-width: 750px) {
+    .card.sponsor-card {
+        width: auto;
+        padding: 0.5rem;
+    }
+}
+
+.card.sponsor-card img {
+    height: 4rem;
+}
 </style>

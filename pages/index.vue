@@ -66,9 +66,8 @@ export default Vue.extend({
 
 #about .side-by-side img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     transform: scale(0.875);
-    border: 2px solid var(--pink);
 }
 
 #about .layout-side {
@@ -94,7 +93,7 @@ export default Vue.extend({
 
     #about .layout-split-mobile { 
         display: block;
-        border: 1px var(--pink) solid;
+        border-top: 1px var(--pink) solid;
     }
 }
 </style>
