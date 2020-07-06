@@ -1,6 +1,6 @@
 <template>
     <section id="pageMicron">
-        <Jumbotron image="var(--banner-gradient)" :freeform="true">
+        <Jumbotron image="url('/images/uavs/micron/banner.png')" :freeform="true">
             <div class="text-header"><div>
                 <h1 class="has-text-white is-size-1 has-text-weight-bold">Micron</h1>
                 <p class="has-text-white is-size-4">Our experimentation and testing platform.</p>
@@ -10,9 +10,9 @@
                 <div>
                     <i class="fas fa-tachometer-alt is-size-1"></i>
                     <h1 class="has-text-weight-bold is-size-3">
-                        10.4 meter/sec
+                        10.4 m/s
                     </h1>
-                    <p>Drone Speed</p>
+                    <p>Top Speed</p>
                 </div>
                 
                 <div>
@@ -26,7 +26,7 @@
                 <div>
                     <i class="fas fa-stopwatch is-size-1"></i>
                     <h1 class="has-text-weight-bold is-size-3">
-                        20 minutes
+                        15 minutes
                     </h1>
                     <p>Flight Time</p>
                 </div>

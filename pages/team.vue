@@ -40,9 +40,9 @@ export default Vue.extend({
                 ],
                 Mechanical: [
                     ["Ishan Duriseti", "Mechanical Team Lead"],
+                    ["Justin Park", "Mechanical"],
                     ["Frank Yu", "Design"],
-                    ["Andrew", "Mechnical"],
-                    ["Justin Park", "Mechnical"]
+                    ["Andrew", "Mechnical"]
                 ],
                 Business: [
                     ["Sungje Park", "Administration/Management"],
