@@ -10,9 +10,9 @@
                 <div>
                     <i class="fas fa-tachometer-alt is-size-1"></i>
                     <h1 class="has-text-weight-bold is-size-3">
-                        27.5 miles/hour
+                        12.3 m/s
                     </h1>
-                    <p>Drone Speed</p>
+                    <p>Top Speed</p>
                 </div>
                 
                 <div>
@@ -20,13 +20,13 @@
                     <h1 class="has-text-weight-bold is-size-3">
                         Carbon Fiber
                     </h1>
-                    <p>Reinforced Frame</p>
+                    <p>Frame</p>
                 </div>
 
                 <div>
                     <i class="fas fa-stopwatch is-size-1"></i>
                     <h1 class="has-text-weight-bold is-size-3">
-                        30 minutes
+                        20 minutes
                     </h1>
                     <p>Flight Time</p>
                 </div>
