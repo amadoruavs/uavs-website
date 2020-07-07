@@ -14,9 +14,14 @@
 
             <div class="container">
                 <div class="card sponsor-card" style="border-radius: 10px" 
-                    v-for="(sponsor, i) in sponsorImages" :key="i">
+                    v-for="(sponsor, i) in sponsorImages" :key="i"
+                    @click="showModal(sponsor)"
+                >
                     <div class="card-image">
-                        <img class="sponsor-image" :src="`/images/sponsor/list/${sponsor}.png`">
+                        <img 
+                            class="sponsor-image" 
+                            :src="`/images/sponsor/list/${sponsor.toLowerCase().replace(/ /g, `_`)}.png`"
+                        />
                     </div>
                 </div>
             </div>
@@ -31,24 +36,66 @@
             </div>
         </div>
 
+        <b-modal :active.sync="isModalActive">
+            <div class="card has-text-centered modal-container">
+                <h1 class="title is-2">{{ currentModal.title }}</h1>
+                <div class="d-flex align-items-center modal-body">
+                    <img 
+                        class="flex-1" 
+                        :src="currentModal.image || `https://picsum.photos/500/300`" 
+                    />
+                    <p class="flex-1 subtitle">{{ currentModal.description }}</p>
+                </div>
+                <br>
+                <b-button 
+                    type="is-info"
+                    tag="a" target="_blank"
+                    :href="currentModal.website"
+                >
+                    Check out {{ currentModal.title }}'s website!
+                </b-button>
+            </div>
+        </b-modal>
     </section>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 
 export default Vue.extend({
     data() {
         return {
+            isModalActive: false,
             sponsorImages: [
-                "cuav", "computar",
-                "digikey", "fastsigns",
-                "jlcpcb", "pololu",
-                "ptsa", "rfdesign",
-                "sensirion", "simscale",
-                "skb", "startech",
-                "tis", "weller"
-            ]
+                "CUAV", "Computar",
+                "DigiKey", "FastSigns",
+                "JLCPCB", "Pololu",
+                "PTSA", "RFDesign",
+                "Sensirion", "SimScale",
+                "SKB", "StarTech",
+                "The Imaging Source", "Weller"
+            ],
+            modalData: {
+                "CUAV": {
+                    description: "Cool Sponsorable site"
+                }
+            },
+            currentModal: {
+                title: null,
+                image: null,
+                description: null,
+                website: null
+            }
+        }
+    },
+    methods: {
+        showModal(sponsorName) {
+            this.currentModal = {
+                ...this.modalData[sponsorName],
+                title: sponsorName
+            }
+
+            this.isModalActive = true;
         }
     }
 });
@@ -79,5 +126,13 @@ export default Vue.extend({
 
 .card.sponsor-card:hover img {
     transform: scale(1.125);
+}
+
+.modal-container {
+    padding: 1rem;
+}
+
+.modal-body {
+    margin: 1rem;
 }
 </style>
