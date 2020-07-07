@@ -74,5 +74,10 @@ export default Vue.extend({
 
 .card.sponsor-card img {
     height: 4rem;
+    transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.card.sponsor-card:hover img {
+    transform: scale(1.125);
 }
 </style>

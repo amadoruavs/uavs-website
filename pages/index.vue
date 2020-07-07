@@ -64,6 +64,10 @@ export default Vue.extend({
     justify-content: center;
 }
 
+#about p {
+    font-size: 1.125rem;
+}
+
 #about .side-by-side img {
     width: 100%;
     border-radius: 15px;

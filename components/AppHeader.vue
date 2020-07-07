@@ -10,12 +10,17 @@
         </template>
         <template slot="start">
             <!-- Pages -->
+            <b-navbar-item tag="nuxt-link" to="/#about">About</b-navbar-item>
             
             <b-navbar-item tag="nuxt-link" to="/team">The Team</b-navbar-item>
 
             <b-navbar-item tag="nuxt-link" to="/join">Join</b-navbar-item>
 
-            <b-navbar-item tag="nuxt-link" to="/uavs/macron">Our UAV</b-navbar-item>
+            
+            <b-navbar-dropdown label="Our UAVs">
+                <b-navbar-item tag="nuxt-link" to="/uavs/macron">Macron</b-navbar-item>
+                <b-navbar-item tag="nuxt-link" to="/uavs/micron">Micron</b-navbar-item>
+            </b-navbar-dropdown>
 
             <b-navbar-dropdown label="Sponsorship Info">
                 <b-navbar-item tag="nuxt-link" to="/sponsor/become">
