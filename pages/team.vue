@@ -9,7 +9,7 @@
         <div class="section container">
             <details v-for="(team, name, teamIndex) in members" :key="teamIndex" class="team-group" open>
                 <summary><h1 class="title is-3">{{ name }}</h1></summary>
-                <MemberCard 
+                <MemberCard
                     v-for="(member, i) in team" :key="i"
                     :picture="`/images/team/members/${member[0].replace(/ /g, '_').trim().toLowerCase()}.webp`"
                     :name="member[0]" :role="member[1]"
@@ -42,20 +42,20 @@ export default Vue.extend({
                     ["Ishan Duriseti", "Mechanical Team Lead"],
                     ["Justin Park", "Mechanical"],
                     ["Frank Yu", "Design"],
-                    ["Andrew", "Mechnical"]
+                    ["Andrew", "Mechanical"]
                 ],
                 Business: [
                     ["Sungje Park", "Administration/Management"],
                     ["Marie Lee", "Business Team Lead"],
-                    ["  Josh Wei", "Business"],
-                    ["Aryan", "Business???"],
+                    ["Josh Wei", "Business"],
+                    ["Aryan", "Business"],
                     ["Justin Z", "Business"],
                 ]
             }
         }
     },
     components: { MemberCard }
-}); 
+});
 </script>
 
 <style>
