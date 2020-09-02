@@ -1,7 +1,7 @@
 {
   "name": "uavs-website",
   "version": "1.0.0",
-  "description": "Rewrite of the UAVs website from Jekyll to Nuxt/Vue",
+  "description": "We are AmadorUAVs, a high school autonomous drone club competing in the AUVSI SUAS compettion.",
   "author": "Raghav Misra",
   "private": true,
   "scripts": {
