@@ -77,7 +77,7 @@ export default Vue.extend({
             ],
             modalData: {
                 "CUAV": {
-                    description: "Cool Sponsorable site"
+                    description: "Cool Sponsorable site",
                     website: "https://store.cuav.net"
                 },
                 "Computar": {
