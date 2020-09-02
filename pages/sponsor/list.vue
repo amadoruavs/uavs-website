@@ -78,9 +78,10 @@ export default Vue.extend({
             modalData: {
                 "CUAV": {
                     description: "Cool Sponsorable site"
+                    website: "https://store.cuav.net"
                 },
                 "Computar": {
-                    website: "https://cuav.org"
+                    website: "https://computar.com"
                 },
                 "FastSigns": {
                     website: "https://fastsigns.com"
