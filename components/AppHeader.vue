@@ -11,12 +11,12 @@
         <template slot="start">
             <!-- Pages -->
             <b-navbar-item tag="nuxt-link" to="/#about">About</b-navbar-item>
-            
+
             <b-navbar-item tag="nuxt-link" to="/team">The Team</b-navbar-item>
 
             <b-navbar-item tag="nuxt-link" to="/join">Join</b-navbar-item>
 
-            
+
             <b-navbar-dropdown label="Our UAVs">
                 <b-navbar-item tag="nuxt-link" to="/uavs/macron">Macron</b-navbar-item>
                 <b-navbar-item tag="nuxt-link" to="/uavs/micron">Micron</b-navbar-item>
@@ -29,7 +29,7 @@
                 <b-navbar-item tag="nuxt-link" to="/sponsor/list">
                     Our Current Sponsors
                 </b-navbar-item>
-                <b-navbar-item tag="nuxt-link" to="/sponsor/progress">Progress</b-navbar-item>
+                <!-- b-navbar-item tag="nuxt-link" to="/sponsor/progress">Progress</b-navbar-item -->
             </b-navbar-dropdown>
 
             <!-- External Links -->
@@ -52,7 +52,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-    
+
 });
 </script>
 
@@ -90,6 +90,6 @@ nav #logo {
         border-left: none;
         border-right: none;
         border-bottom: none;
-    } 
+    }
 }
 </style>
