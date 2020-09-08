@@ -4,7 +4,7 @@
             <h1 class="is-size-1 has-text-weight-bold has-text-white">Join Us!</h1>
             <p class="is-size-4 has-text-white">
                 Fill out the form below to register. Entrance assignments will be sent
-                September 17th. Email questions to officers@amadoruavs.com.
+                September 12th. Email questions to officers@amadoruavs.com.
             </p>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJa0P9qoE-xoXUGoLjRQUovpCyTNQa0Iurwy_P3BWI8Inzxg/viewform?embedded=true" style="height: 50vh; margin-top: 1rem" width="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </Jumbotron>
