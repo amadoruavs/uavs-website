@@ -3,12 +3,12 @@
         <Jumbotron image="url('/images/sponsor/become/banner.webp')">
             <h1 class="has-text-white is-size-1 has-text-weight-bold">Support Us!</h1>
             <p class="has-text-white is-size-4">
-                Support high school aviation and engineering, 
+                Support high school aviation and engineering,
                 and get cool perks such as a logo on our drone and more!
             </p>
             <br>
-            <b-button 
-                tag="a" href="https://drive.google.com/open?id=1BZ1BHePTxTGrvTFHCgmu2J6DsGFHBZnt" 
+            <b-button
+                tag="a" href="https://drive.google.com/file/d/18Pr0i50SRy0PpTLiYOglLB1hF2bMLoLn/view?usp=sharing"
                 type="is-primary" target="_blank"
             >
                 Sponsorship Packet
@@ -18,8 +18,8 @@
         <div class="section has-text-centered">
             <h1 class="title">Sponsorship Levels & Benefits</h1>
             <p class="subtitle">
-                Contact us at 
-                <a target="_blank" href="mailto:officers@amadoruavs.com">officers@amadoruavs.com</a> 
+                Contact us at
+                <a target="_blank" href="mailto:officers@amadoruavs.com">officers@amadoruavs.com</a>
                 to learn more.
             </p>
 

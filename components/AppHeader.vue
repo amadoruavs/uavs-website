@@ -29,6 +29,9 @@
                 <b-navbar-item tag="nuxt-link" to="/sponsor/list">
                     Our Current Sponsors
                 </b-navbar-item>
+                <b-navbar-item href="https://drive.google.com/file/d/18Pr0i50SRy0PpTLiYOglLB1hF2bMLoLn/view?usp=sharing" target="_blank">
+                    Sponsorship Packet
+                </b-navbar-item>
                 <!-- b-navbar-item tag="nuxt-link" to="/sponsor/progress">Progress</b-navbar-item -->
             </b-navbar-dropdown>
 
