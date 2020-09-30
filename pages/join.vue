@@ -3,8 +3,8 @@
         <Jumbotron image="var(--banner-gradient)">
             <h1 class="is-size-1 has-text-weight-bold has-text-white">Join Us!</h1>
             <p class="is-size-4 has-text-white">
-                Entrance assignments are now open! Follow the instructions
-                to submit an entrance assignment below:
+                Entrance assignments are now open! Submission deadline is October 6th.
+                Follow the instructions to submit an entrance assignment below:
             </p>
             <p class="is-size-4">
                 <a style="text-decoration: underline" class="has-text-white" href="https://docs.google.com/document/d/1DMd6m-9b05RYZtv_gjGA1WJ8FKE5uHFXFuKMn6bmIbE/edit?usp=sharing">Software</a>
