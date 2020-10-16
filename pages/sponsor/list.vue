@@ -98,7 +98,7 @@ export default Vue.extend({
             modalData: {
 		"Air Supply": {
 		    description: "test",
-		    wesite: "https://airsupply.com"
+		    website: "https://airsupply.com"
 		},
                 "CUAV": {
                     description: "Cool Sponsorable site",
