@@ -81,18 +81,25 @@ export default Vue.extend({
         return {
             isModalActive: false,
             bigSponsorImages: [
+                "Air Supply",
+		"CUAV",
+		"The Imaging Source",
+		"SKB"
             ],
             sponsorImages: [
-                "CUAV",
                 "Computar",
                 "DigiKey", "FastSigns",
                 "JLCPCB", "Pololu",
                 "PTSA", "RFDesign",
                 "Sensirion", "SimScale",
-                "SKB", "StarTech",
-                "The Imaging Source", "Weller"
+                "StarTech",
+                "Weller"
             ],
             modalData: {
+		"Air Supply": {
+		    description: "test",
+		    wesite: "https://airsupply.com"
+		},
                 "CUAV": {
                     description: "Cool Sponsorable site",
                     website: "https://store.cuav.net"
