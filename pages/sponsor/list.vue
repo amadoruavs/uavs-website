@@ -13,6 +13,20 @@
         <div class="section has-text-centered">
 
             <div class="container">
+                <div class="card sponsor-card beeg" style="border-radius: 10px; cursor: pointer"
+                    v-for="(sponsor, i) in bigSponsorImages" :key="i"
+                    @click="showModal(sponsor)"
+                >
+                    <div class="card-image">
+                        <img
+                            class="sponsor-image"
+                            :src="`/images/sponsor/list/${sponsor.toLowerCase().replace(/ /g, `_`)}.png`"
+                        />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
                 <div class="card sponsor-card" style="border-radius: 10px; cursor: pointer"
                     v-for="(sponsor, i) in sponsorImages" :key="i"
                     @click="showModal(sponsor)"
@@ -66,8 +80,11 @@ export default Vue.extend({
     data() {
         return {
             isModalActive: false,
+            bigSponsorImages: [
+            ],
             sponsorImages: [
-                "CUAV", "Computar",
+                "CUAV",
+                "Computar",
                 "DigiKey", "FastSigns",
                 "JLCPCB", "Pololu",
                 "PTSA", "RFDesign",
@@ -150,12 +167,28 @@ export default Vue.extend({
     box-shadow: none;
 }
 
+.card.beeg {
+    width: 50%;
+    vertical-align: middle !important;
+}
+
+.card.beeg img {
+    height: auto !important;
+    max-height: 8rem;
+}
+
 @media screen and (max-width: 750px) {
     .card.sponsor-card {
         width: auto;
         padding: 0.5rem;
     }
+
+    .card.beeg {
+        width: auto;
+        padding: 0.5rem;
+    }
 }
+
 
 .card.sponsor-card img {
     height: 4rem;
