@@ -12,6 +12,7 @@
 
         <div class="section has-text-centered">
 
+            <h2 class="is-size-2 has-text-weight-bold">Our Sponsors</h2>
             <div class="container">
                 <div class="card sponsor-card beeg" style="border-radius: 10px; cursor: pointer"
                     v-for="(sponsor, i) in bigSponsorImages" :key="i"
@@ -48,6 +49,25 @@
                     Be the first!
                 </b-button>
             </div>
+
+            <h2 class="is-size-2 has-text-weight-bold">Affiliates</h2>
+            <p class="is-size-5">
+                These are projects and groups who do not sponsor us, but
+                whom we are affiliated with.
+            </p>
+            <div class="container">
+                <div class="card sponsor-card" style="border-radius: 10px; cursor: pointer"
+                    v-for="(sponsor, i) in affiliateImages" :key="i"
+                    @click="showModal(sponsor)"
+                >
+                    <div class="card-image">
+                        <img
+                            class="sponsor-image"
+                            :src="`/images/sponsor/list/${sponsor.toLowerCase().replace(/ /g, `_`)}.png`"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
 
         <b-modal :active.sync="isModalActive">
@@ -82,9 +102,10 @@ export default Vue.extend({
             isModalActive: false,
             bigSponsorImages: [
                 "Air Supply",
-		"CUAV",
-		"The Imaging Source",
-		"SKB"
+		        "CUAV",
+		        "The Imaging Source",
+		        "SKB",
+                "Zubax"
             ],
             sponsorImages: [
                 "Computar",
@@ -95,11 +116,18 @@ export default Vue.extend({
                 "StarTech",
                 "Weller"
             ],
+            affiliateImages: [
+                "PX4", "UAVCAN"
+            ],
             modalData: {
-		"Air Supply": {
-		    description: "test",
-		    website: "https://airsupply.com"
-		},
+                "Air Supply": {
+                    description: "test",
+                    website: "https://airsupply.com"
+                },
+                "Zubax": {
+                    description: "test",
+                    website: "https://zubax.com"
+                },
                 "CUAV": {
                     description: "Cool Sponsorable site",
                     website: "https://store.cuav.net"
