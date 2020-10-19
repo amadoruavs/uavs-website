@@ -117,19 +117,28 @@ export default Vue.extend({
                 "Weller"
             ],
             affiliateImages: [
-                "PX4", "UAVCAN"
+                "PX4", "UAVCAN", "MAVSDK", "MAVLink"
             ],
             modalData: {
+                "PX4": {
+                    website: "https://dronecode.org"
+                },
+                "UAVCAN": {
+                    website: "https://uavcan.org",
+                },
+                "MAVSDK": {
+                    website: "https://mavsdk.mavlink.io"
+                },
+                "MAVLink": {
+                    website: "https://mavlink.io"
+                },
                 "Air Supply": {
-                    description: "test",
                     website: "https://airsupply.com"
                 },
                 "Zubax": {
-                    description: "test",
                     website: "https://zubax.com"
                 },
                 "CUAV": {
-                    description: "Cool Sponsorable site",
                     website: "https://store.cuav.net"
                 },
                 "Computar": {
