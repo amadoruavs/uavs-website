@@ -117,11 +117,14 @@ export default Vue.extend({
                 "Weller"
             ],
             affiliateImages: [
-                "PX4", "UAVCAN", "MAVSDK", "MAVLink"
+                "PX4", "UAVCAN", "MAVSDK", "MAVLink", "Dronecode"
             ],
             modalData: {
-                "PX4": {
+                "Dronecode": {
                     website: "https://dronecode.org"
+                },
+                "PX4": {
+                    website: "https://px4.io"
                 },
                 "UAVCAN": {
                     website: "https://uavcan.org",
