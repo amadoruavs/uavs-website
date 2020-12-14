@@ -33,23 +33,28 @@ export default Vue.extend({
                     ["Derick Mathews", "Communications"],
                     ["Raghav Misra", "Image Processing"],
                     ["Ethan Kuo", "Obstacle Avoidance"]
+                    ["Timothy Gao", "Software"]
+                    ["Kush Nayak", "Software"]
+                    ["Angad Bhargav", "Software"]
+                    ["Nikhil Sunkad", "Software"]
                 ],
-                Electrical: [
-                    ["Kai Gottschalk", "Electrical Team Lead"],
-                    ["Austin", "Micron Development"]
-                ],
-                Mechanical: [
-                    ["Ishan Duriseti", "Mechanical Team Lead"],
+                Electromechanical: [
+                    ["Kai Gottschalk", "VP/Electrical Development Lead"],
+                    ["Ishan Duriseti", "Mechanical Development Lead"],
+                    ["Austin Chen", "Electrical"]
                     ["Justin Park", "Mechanical"],
                     ["Frank Yu", "Design"],
-                    ["Andrew", "Mechanical"]
-                ],
+                    ["Andrew Chen", "Mechanical"]
+                    ["Siddharth Bhargav", "Mechanical"]
+                    ["Jai Puli", "Mechanical"]
+		],
+                
                 Business: [
                     ["Sungje Park", "Administration/Management"],
                     ["Marie Lee", "Business Team Lead"],
-                    ["Josh Wei", "Business"],
-                    ["Aryan", "Business"],
-                    ["Justin Z", "Business"],
+                    ["Zephan Thomas", "Business"],
+                    ["Christopher Li", "Business"],
+                    ["Leo Shao", "Business"],
                 ]
             }
         }
