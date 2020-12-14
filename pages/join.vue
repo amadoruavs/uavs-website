@@ -3,7 +3,7 @@
         <Jumbotron image="var(--banner-gradient)">
             <h1 class="is-size-1 has-text-weight-bold has-text-white">Join Us!</h1>
             <p class="is-size-4 has-text-white">
-                Entrance assignments are now open! We will accept entrance assignments through January 1st, 2021.
+                Entrance assignments are now open! Submission deadline is October 6th.
                 Follow the instructions to submit an entrance assignment below:
             </p>
             <p class="is-size-4">
