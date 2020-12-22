@@ -114,7 +114,8 @@ export default Vue.extend({
                 "PTSA", "RFDesign",
                 "Sensirion", "SimScale",
                 "StarTech",
-                "Weller"
+                "Weller",
+                "Insta360"
             ],
             affiliateImages: [
                 "PX4", "UAVCAN", "MAVSDK", "MAVLink", "Dronecode"
@@ -179,6 +180,9 @@ export default Vue.extend({
                 },
                 "Weller": {
                     website: "https://weller-tools.com"
+                },
+                "Insta360": {
+                    website: "https://www.insta360.com"
                 },
             },
             currentModal: {
