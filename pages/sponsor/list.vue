@@ -105,7 +105,8 @@ export default Vue.extend({
 		        "CUAV",
 		        "The Imaging Source",
 		        "SKB",
-                "Zubax"
+                "Zubax",
+                "Holybro",
             ],
             sponsorImages: [
                 "Computar",
@@ -114,7 +115,7 @@ export default Vue.extend({
                 "PTSA", "RFDesign",
                 "Sensirion", "SimScale",
                 "StarTech",
-                "Weller"
+                "Weller",
             ],
             affiliateImages: [
                 "PX4", "UAVCAN", "MAVSDK", "MAVLink", "Dronecode"
@@ -179,6 +180,9 @@ export default Vue.extend({
                 },
                 "Weller": {
                     website: "https://weller-tools.com"
+                },
+                "Holybro": {
+                    website: "http://www.holybro.com"
                 },
             },
             currentModal: {
