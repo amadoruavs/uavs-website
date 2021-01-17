@@ -105,7 +105,8 @@ export default Vue.extend({
 		        "CUAV",
 		        "The Imaging Source",
 		        "SKB",
-                "Zubax"
+                "Zubax",
+                "Holybro",
             ],
             sponsorImages: [
                 "Computar",
@@ -181,6 +182,8 @@ export default Vue.extend({
                 "Weller": {
                     website: "https://weller-tools.com"
                 },
+                "Holybro": {
+                    website: "http://www.holybro.com"
                 "Insta360": {
                     website: "https://www.insta360.com"
                 },
