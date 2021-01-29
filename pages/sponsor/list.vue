@@ -102,11 +102,13 @@ export default Vue.extend({
             isModalActive: false,
             bigSponsorImages: [
                 "Air Supply",
-		        "CUAV",
-		        "The Imaging Source",
-		        "SKB",
+                "CUAV",
+                "The Imaging Source",
+                "SKB",
                 "Zubax",
                 "Holybro",
+                "PPIE",
+                "Xoar",
             ],
             sponsorImages: [
                 "Computar",
@@ -122,6 +124,9 @@ export default Vue.extend({
                 "PX4", "UAVCAN", "MAVSDK", "MAVLink", "Dronecode"
             ],
             modalData: {
+                "Xoar": {
+                    website: "https://xoarintl.com"
+                },
                 "Dronecode": {
                     website: "https://dronecode.org"
                 },
@@ -184,9 +189,13 @@ export default Vue.extend({
                 },
                 "Holybro": {
                     website: "http://www.holybro.com"
+                },
                 "Insta360": {
                     website: "https://www.insta360.com"
                 },
+                "PPIE": {
+                    website: "https://ppie.org"
+                }
             },
             currentModal: {
                 title: null,
