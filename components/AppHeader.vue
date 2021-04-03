@@ -35,6 +35,10 @@
                 <!-- b-navbar-item tag="nuxt-link" to="/sponsor/progress">Progress</b-navbar-item -->
             </b-navbar-dropdown>
 
+            <b-navbar-item tag="nuxt-link" to="/avfootball">
+                AVFootball
+            </b-navbar-item>
+
             <!-- External Links -->
             <b-navbar-item href="http://www.auvsi-suas.org/" target="_blank">
                 Competition
