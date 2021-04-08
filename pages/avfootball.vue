@@ -2,7 +2,7 @@
     <section id="avfootballPage" class="has-text-centered" style="padding-top: 2rem">
       <h1 class="title">AV Football Streaming</h1>
       <p style="margin-bottom: 0.5rem">
-        Our club does livestreams of each football
+        AmadorUAvs does livestreams of each football
         game our sports teams participate in. Watch here:
       </p>
       <iframe style="width: 80vw; height: 45vw;" src="https://www.youtube.com/embed/e_TaEHBrGaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -10,6 +10,12 @@
         Older livestreams can be found archived
         <a href="https://www.youtube.com/watch?v=CaEpGgRDLN8">here.</a>
       </p>
+      <p>
+        If you are interested in what we do,
+        <a href="https://amadoruavs.com">find more info.</a>
+      </p>
+      <br>
+
     </section>
 </template>
 <script>
