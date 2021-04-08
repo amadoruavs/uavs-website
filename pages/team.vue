@@ -30,7 +30,7 @@ export default Vue.extend({
                 Software: [
                     ["Kalyan Sriram", "President"],
                     ["Vincent Wang", "Software Team Lead"],
-                    ["Derick Mathews", "Communications"],
+                    ["Derick Mathews", "Autonomous Image Detection"],
                     ["Raghav Misra", "Image Processing"],
                     ["Ethan Kuo", "Obstacle Avoidance"],
                     ["Timothy Gao", "Software"],

@@ -109,6 +109,7 @@ export default Vue.extend({
                 "Holybro",
                 "PPIE",
                 "Xoar",
+                "VIP_Audio_Visual_Company"
             ],
             sponsorImages: [
                 "Computar",
@@ -195,7 +196,10 @@ export default Vue.extend({
                 },
                 "PPIE": {
                     website: "https://ppie.org"
-                }
+                },
+                "VIP_Audio_Visual_Company": {
+                    website: "https://www.vipav.com"
+                },
             },
             currentModal: {
                 title: null,
