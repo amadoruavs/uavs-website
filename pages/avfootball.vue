@@ -15,10 +15,9 @@
         Older livestreams can be found archived
         <a href="https://www.youtube.com/watch?v=CaEpGgRDLN8">here.</a>
       </p>
-      <br>
       <p class ="subtitle"><b>Support Us</b></p>
       <p>
-       It cost a lot to run our club and these livestreams. If you want to help support us, <a href="https://amadoruavs.com/sponsor/become">sponsor us</a> or mail a check to Amador Valley High School with "for AmadorUAVs" in the memo line.
+       If you want to help support us, <a href="https://amadoruavs.com/sponsor/become">sponsor us</a> or mail a check to Amador Valley High School with "for AmadorUAVs" in the memo line.
       </p> 
       <br>
       <br>
