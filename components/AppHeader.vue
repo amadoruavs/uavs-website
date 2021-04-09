@@ -23,11 +23,11 @@
             </b-navbar-dropdown>
 
             <b-navbar-dropdown label="Sponsorship Info">
+	       <b-navbar-item tag="nuxt-link" to="/sponsor/list">
+                    Our Current Sponsors
+                </b-navbar-item>
                 <b-navbar-item tag="nuxt-link" to="/sponsor/become">
                     Become a Sponsor
-                </b-navbar-item>
-                <b-navbar-item tag="nuxt-link" to="/sponsor/list">
-                    Our Current Sponsors
                 </b-navbar-item>
                 <b-navbar-item href="https://drive.google.com/file/d/18Pr0i50SRy0PpTLiYOglLB1hF2bMLoLn/view?usp=sharing" target="_blank">
                     Sponsorship Packet
