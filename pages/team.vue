@@ -37,6 +37,7 @@ export default Vue.extend({
                     ["Kush Nayak", "Software"],
                     ["Angad Bhargav", "Software"],
                     ["Nikhil Sunkad", "Software"],
+                    ["Karan Gupta", "Software"],
                 ],
                 Electromechanical: [
                     ["Kai Gottschalk", "VP/Electrical Development Lead"],
