@@ -6,7 +6,12 @@
         game our sports teams participate in. Watch here:
       </p>
      <p class="subtitle"><b>Varsity Game</b></p>
-      <iframe style="width: 80vw; height: 45vw;" src="https://www.youtube.com/embed/e_TaEHBrGaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <div style="display: flex; justify-content: center;">
+      <div style="width: 64vw; height: 36vw; border: 2px solid grey; display: flex; justify-content: center; align-items: center;">
+        <h1 class="subtitle">Unfortunately, the varsity game that was scheduled to be streamed on April 10th at 7:00 PM has been cancelled due to COVID-19.
+            Previous streams of our football games can be viewed <a href="https://www.youtube.com/playlist?list=PLj2ZpiiZsNz7cdf2MSgIVmPIc0Hlr1WKB">here</a>.</h1>
+      </div>
+      </div>
       <br>
       <br>
       <!-- <p class="subtitle"><b>Freshman Game</b></p>
@@ -14,7 +19,7 @@
       -->
       <p style="margin-top: 1rem; margin-bottom: 2rem;">
         Older livestreams can be found archived
-        <a href="https://www.youtube.com/watch?v=CaEpGgRDLN8">here.</a>
+        <a href="https://www.youtube.com/playlist?list=PLj2ZpiiZsNz7cdf2MSgIVmPIc0Hlr1WKB">here.</a>
       </p>
       <p class ="subtitle"><b>Support Us</b></p>
       <p>
