@@ -31,7 +31,7 @@
         style="width: 20vw; height: 40.5vw"
         allowfullscreen=""
         frameborder="0"
-        src="https://www.youtube.com/live_chat?v=e_TaEHBrGaw&embed_domain=amadoruavs.com"
+        src="https://www.youtube.com/live_chat?v=msREd27YXXc&embed_domain=amadoruavs.com"
       ></iframe
       ><br />
     </div>
