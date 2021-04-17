@@ -17,10 +17,10 @@
       17th at 4:00 PM.
     </p>
     <div
-      style="display: flex; justify-content: center; background-color: black"
+      class="livestream-frame"
     >
       <iframe
-        style="width: 72vw; height: 40.5vw"
+        class="livestream-preview"
         src="https://www.youtube.com/embed/msREd27YXXc"
         title="YouTube video player"
         frameborder="0"
@@ -28,7 +28,7 @@
         allowfullscreen
       ></iframe>
       <iframe
-        style="width: 20vw; height: 40.5vw"
+        class="livestream-chat"
         allowfullscreen=""
         frameborder="0"
         src="https://www.youtube.com/live_chat?v=msREd27YXXc&embed_domain=amadoruavs.com"
@@ -61,3 +61,27 @@
 <script>
 export default {};
 </script>
+<style>
+  .livestream-frame {
+    display: flex;
+    justify-content: center;
+    background-color: black
+  }
+  .livestream-preview {
+    width: 72vw;
+    height: 40.5vw;
+  }
+  .livestream-chat {
+    width: 20vw; 
+    height: 40.5vw;
+  }
+  @media only screen and (max-width: 810px) {
+    .livestream-chat {
+        display: none;
+    }
+    .livestream-preview {
+      width: 80vw;
+      height: 45vw;
+    }
+}
+</style>
