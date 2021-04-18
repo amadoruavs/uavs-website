@@ -21,19 +21,20 @@
     >
       <iframe
         class="livestream-preview"
-        src="https://www.youtube.com/embed/msREd27YXXc"
+        src="https://www.youtube.com/embed/eamhEscD-Go"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
-      <iframe
+      <!--<iframe
         class="livestream-chat"
         allowfullscreen=""
         frameborder="0"
         src="https://www.youtube.com/live_chat?v=msREd27YXXc&embed_domain=amadoruavs.com"
       ></iframe
-      ><br />
+      >-->
+      <br />
     </div>
     <br />
     <br />
